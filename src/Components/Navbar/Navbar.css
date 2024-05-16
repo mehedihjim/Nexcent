@@ -1,0 +1,63 @@
+.nav-container{
+    width: 1215px;
+    margin: 22px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-menu{
+    display: flex;
+    gap: 50px;
+    margin: auto 0;
+}
+
+.main-menu li a{
+    font-family: var(--primary-ff);
+    font-size: 16px;
+    color: #18191F;
+    line-height: 24px;
+    font-weight: 400;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+.main-menu li a:hover{
+    font-weight: 500;
+
+}
+
+
+.login-access{
+    display: flex;
+    gap: 14px;
+    margin: auto 0;
+}
+
+.login-access .login{
+    color: var(--primary-clr);
+    font-family: var(--primary-ff);
+    font-weight: 500;
+    line-height: 20px;
+    padding: 10px 20px;
+}
+
+.login-access .menu-button{
+    padding: 9px 19px;
+    border: 1px solid var(--primary-clr);
+    font-family: var(--primary-ff);
+    color: #FFFFFF;
+    background: var(--primary-clr);
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.login-access .menu-button:hover{
+    background: transparent;
+    color: var(--primary-clr);
+}
