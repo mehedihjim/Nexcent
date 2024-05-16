@@ -1,0 +1,42 @@
+.banner{
+    padding-top: 118px;
+} 
+
+.banner .container{
+    flex-direction: column;
+}
+
+.banner-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner .banner-left h1{
+    font-family: var(--primary-ff);
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 76px;
+    width: 550px;
+    margin-bottom: 16px;
+    color: #4D4D4D;
+}
+
+.banner .banner-left h1 span{
+    color: var(--primary-clr);
+}
+
+.banner .banner-left p{
+    font-family: var(--primary-ff);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #717171;
+    margin-bottom: 32px;
+}
+
+.slide-dot{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 16px;
+}

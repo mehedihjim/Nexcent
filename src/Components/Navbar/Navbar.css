@@ -42,6 +42,15 @@
     font-weight: 500;
     line-height: 20px;
     padding: 10px 20px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+.login-access .login:hover{
+    color: #18191F;
 }
 
 .login-access .menu-button{
@@ -55,6 +64,11 @@
     -moz-border-radius: 6px;
     -ms-border-radius: 6px;
     -o-border-radius: 6px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
 }
 
 .login-access .menu-button:hover{
