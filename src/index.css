@@ -32,6 +32,7 @@ a{
   width: 1152px;
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
   margin: 0 auto;
 }
 
@@ -61,5 +62,30 @@ a{
 .common-btn:hover{
   background: transparent;
   color: var(--primary-clr);
+}
+
+.cmn-title{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.cmn-title h2{
+  font-family: var(--primary-ff);
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  color: #4D4D4D;
+}
+
+.cmn-title p{
+  font-family: var(--primary-ff);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #717171;
 }
 /* ---common css ends--- */

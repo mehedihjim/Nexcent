@@ -1,6 +1,10 @@
+nav{
+    background: #F5F7FA;
+}
+
 .nav-container{
     width: 1215px;
-    margin: 22px auto 0;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }

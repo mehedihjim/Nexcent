@@ -1,0 +1,36 @@
+.brand{
+    padding: 40px 0;
+}
+
+.brand .container{
+    flex-direction: column;
+}
+
+/* Slider Section Starts */
+
+.slider-wrapper {
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    justify-content: space-between;
+    width: calc(14 * 150px);
+    animation: slide 60s linear infinite;
+    -webkit-animation: slide 60s linear infinite;
+    padding: 25px 0;
+}
+
+.slider img {
+    margin: 0 10px; /* Adjust based on desired spacing */
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+/* Slider Section Ends */
