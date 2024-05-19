@@ -1,0 +1,27 @@
+.help{
+    padding: 64px 0;
+    margin-bottom: 48px;
+    background: #F5F7FA;
+}
+
+.help .col-left h2{
+    font-family: var(--primary-ff);
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #717171;
+    width: 408px;
+    margin-bottom: 8px;
+}
+
+.help .col-left h2 span{
+    color: var(--primary-clr);
+}
+
+.help .col-left p{
+    font-family: var(--primary-ff);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #18191F;
+}

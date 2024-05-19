@@ -7,6 +7,7 @@ import Banner from './Components/Banner/Banner.jsx'
 import Brand from './Components/Brand/Brand.jsx'
 import Community from './Components/Community/Community.jsx'
 import Pixelgrade from './Components/Pixelgrade/Pixelgrade.jsx'
+import Help from './Components/Help/Help.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -15,5 +16,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Brand></Brand>
     <Community></Community>
     <Pixelgrade></Pixelgrade>
+    <Help></Help>
   </React.StrictMode>,
 )
